@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Магазин роллов</title>
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700&amp;subset=cyrillic-ext" rel="stylesheet">
+
+</head>
+
+<body>
+	<header class = "header">
+		<div class = "container text-center">
+			<img src="img/logo/logo.svg" alt="" width="92">
+			<div class = "display-4">Доставка роллов</div>
+			<p class = "lead">Оперативно и вкусно</p>
+		</div>
+	</header>
+	<div class = "container mb-5">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="row">
+
+					<!-- Roll -->
+					<div class="col-md-6">
+						<div class="card mb-4">
+							<img src="img/roll/california-hit.jpg" alt="" class="card-img-top">
+							<div class="card-body text-center">
+								<h3 class="card-title">Филадельфия хит ролл</h3>
+								<p class="card-text text-muted pt-2">6 шт.</p>
+								<div class="details-wrapper">
+									<div class="items">
+										<div class="items-control">-</div>
+										<div class="items-current">0</div>
+										<div class="items-control">+</div>
+									</div>
+									<div class="price">
+										<div class="price_weight text-muted">180г.</div>
+										<div class="price_currency">1700tg</div>
+									</div>
+								</div>
+								<button type="button" class="btn btn-block btn-outline-warning">+в корзину</button>
+							</div>
+						</div>
+					</div>
+					<!-- //Roll -->
+					
+					<!-- Roll -->
+					<div class="col-md-6">
+						<div class="card mb-4">
+							<img src="img/roll/california-tempura.jpg" alt="" class="card-img-top">
+							<div class="card-body text-center">
+								<h3 class="card-title">Калифорния темпура</h3>
+								<p class="card-text text-muted pt-2">6 шт.</p>
+								<div class="details-wrapper">
+									<div class="items">
+										<div class="items-control">-</div>
+										<div class="items-current">0</div>
+										<div class="items-control">+</div>
+									</div>
+									<div class="price">
+										<div class="price_weight text-muted">160г.</div>
+										<div class="price_currency">1500tg</div>
+									</div>
+								</div>
+								<button type="button" class="btn btn-block btn-outline-warning">+в корзину</button>
+							</div>
+						</div>
+					</div>
+					<!-- //Roll -->
+
+					 <!-- Roll -->
+					<div class="col-md-6">
+						<div class="card mb-4">
+							<img src="img/roll/philadelphia.jpg" alt="" class="card-img-top">
+							<div class="card-body text-center">
+								<h3 class="card-title">Филадельфия</h3>
+								<p class="card-text text-muted pt-2">6 шт.</p>
+								<div class="details-wrapper">
+									<div class="items">
+										<div class="items-control">-</div>
+										<div class="items-current">0</div>
+										<div class="items-control">+</div>
+									</div>
+									<div class="price">
+										<div class="price_weight text-muted">180г.</div>
+										<div class="price_currency">1600tg</div>
+									</div>	
+								</div>
+								<button type="button" class="btn btn-block btn-outline-warning">+в корзину</button>
+							</div>
+						</div>
+					</div>
+					<!-- //Roll -->
+
+					 <!-- Roll -->
+					<div class="col-md-6">
+						<div class="card mb-4">
+							<img src="img/roll/zapech-california.jpg" alt="" class="card-img-top">
+							<div class="card-body text-center">
+								<h3 class="card-title">Запеченный ролл «Калифорния»</h3>
+								<p class="card-text text-muted pt-2">6 шт.</p>
+								<div class="details-wrapper">
+									<div class="items">
+										<div class="items-control">-</div>
+										<div class="items-current">0</div>
+										<div class="items-control">+</div>
+									</div>
+									<div class="price">
+										<div class="price_weight text-muted">180г.</div>
+										<div class="price_currency">1800tg</div>
+									</div>
+								</div>
+								<button type="button" class="btn btn-block btn-outline-warning">+в корзину</button>
+							</div>
+						</div>
+					</div>
+					<!-- //Roll -->
+				</div>
+			</div>
+			<div class="col-md-4">
+				 <!-- Korzina -->
+				<div class="card mb-4">
+					<img src="img/dollar.png" alt="" class="card-img-top cnt_png">
+					<div class="card-body text-center">
+						<h3 class="card-title">Всего:</h3>
+						<div class="details-wrapper">
+							<p class="card-text text-muted pt-2"><span id="item_number">0</span> шт.</p>
+							<div class="price">
+								<div class="price_currency"><span id="item_price">0</span> tg</div>
+							</div>
+						</div>
+						<button type="button" class="btn btn-block btn-outline-warning">Купить!</button>
+					</div>
+				</div>
+				<!-- //Korzina -->
+			</div>
+		</div>
+	</div>
+	<!-- Подключаем скрипты -->
+	<script src="js/counter.js"></script>
+</body>
+
+</html>

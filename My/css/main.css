@@ -1,0 +1,61 @@
+body, html{
+	background-color: #F8F9F9;
+	height: 100%;
+}
+.header{
+	padding: 50px 0px 50px 0px;
+}
+.card-img-top{
+	width: 265px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.details-wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 25px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.items {
+	font-family: 'Merriweather', serif;
+	background: #f2ede7;
+	border-radius: 8px;
+	width: 120px;
+	display: flex;
+	font-size: 18px;
+	height: 30px;
+	overflow: hidden;
+}
+.items-control{
+	width: 40px;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+}
+.items-control:hover{
+	background: #fd7e14;
+	color: #FFF;
+}
+.items-current{
+	width: 40px;
+}
+.price_currency{
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 1;
+}
+.btn-outline-warning{
+	border-color: #fd7e14;
+	color: #fd7e14;
+}
+.btn-outline-warning:hover{
+	background: #fd7e14;
+	color: #FFF;
+}
+.cnt_png{
+	width: auto;
+	height: 170px;
+}
